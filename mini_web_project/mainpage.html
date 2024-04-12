@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <title>Korea Helper</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/mainpage.css">
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript"  src="https://www.appelsiini.net/projects/chained/jquery.chained.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body>
+    <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Header -->
+                    <header id="header" class="alt">
+                        <a href="index.html" class="logo"><strong>For travel</strong> <span>By 01</span></a>
+                        <nav>
+                            <a href = "#menu" onclick = "document.getElementById('menu').style.display='block';
+                            document.getElementById('fade').style.display='block';
+                            document.getElementById('header').style.backgroundColor='#000000';
+                            document.getElementsByTagName('body')[0].setAttribute('style','background: #000000')">Menu</a></p>
+                        </nav>
+                    </header>
+
+                <!-- Banner -->
+                    <section id="banner" class="major">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>Let's travel Korea</h1>
+                            </header>
+                            <div class="content">
+                                <select id="selBox" class="selectpicker show-tick form-control"
+                                        data-header="Select one that you want to see"
+                                        data-live-search="true" data-style="btn-info"
+                                        style="width: 100%">
+                                    <option value=weather>Weather today</option>
+                                    <option value=searchPlace>Search the place</option>
+                                    <option value=currentLoc>Current place food</option>
+                                </select>
+                                <ul class="actions">
+                                    <li><button id="selectBtn" class="button next scrolly" onclick="selClick()">Go</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Menu -->
+
+                    <div class="pop-layer">
+                        <nav id="menu" class="popup-layer">
+                            <ul class="links">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="weather.html">Weather</a></li>
+                                <li><a href="currentPlace.html">Nearby Restaurants</a></li>
+                                <li><a href="searchPlace.html">Search Place</a></li>
+                                <li><a href = "javascript:void(0)" onclick = "document.getElementById('menu').style.display='none';
+                                document.getElementById('fade').style.display='none';
+                                document.getElementById('header').style.backgroundColor='#2a2f4a';
+                                document.getElementsByTagName('body')[0].setAttribute('style','background: #2a2f4a'); ">Close</a></li>
+                            </ul>
+                        </nav>
+                        <div id="fade" class="popBg"></div>
+
+                    </div>
+            </div>
+</body>
+</html>

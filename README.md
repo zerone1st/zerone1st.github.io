@@ -1,125 +1,71 @@
-[//]: # (<h2 align="center">)
+# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-[//]: # (  Portfolio Website - v2.0<br/>)
+[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-[//]: # (  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>)
+## Preview
 
-[//]: # (</h2>)
+[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
 
-[//]: # (<div align="center">)
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
 
-[//]: # (  <img alt="Demo" src="./Images/readme-img1.png" />)
+## Status
 
-[//]: # (</div>)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
 
-[//]: # ()
-[//]: # (<br/>)
+## Download and Installation
 
-[//]: # ()
-[//]: # (<center>)
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
+* Install via npm: `npm i startbootstrap-resume`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
-[//]: # ()
-[//]: # ([![forthebadge]&#40;https://forthebadge.com/images/badges/built-with-love.svg&#41;]&#40;https://forthebadge.com&#41; &nbsp;)
+## Usage
 
-[//]: # ([![forthebadge]&#40;https://forthebadge.com/images/badges/made-with-javascript.svg&#41;]&#40;https://forthebadge.com&#41; &nbsp;)
+### Basic Usage
 
-[//]: # ([![forthebadge]&#40;https://forthebadge.com/images/badges/open-source.svg&#41;]&#40;https://forthebadge.com&#41; &nbsp;)
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-[//]: # (![GitHub Repo stars]&#40;https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge&#41; &nbsp;)
+### Advanced Usage
 
-[//]: # (![GitHub forks]&#40;https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge&#41;)
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-[//]: # ()
-[//]: # (</center>)
+#### Gulp Tasks
 
-[//]: # ()
-[//]: # (<h3 align="center">)
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-[//]: # (    🔹)
+## Bugs and Issues
 
-[//]: # (    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
 
-[//]: # (    🔹)
+## Custom Builds
 
-[//]: # (    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>)
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-[//]: # (</h3>)
+## About
 
-[//]: # ()
-[//]: # (## TL;DR)
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-[//]: # ()
-[//]: # (You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419]&#40;https://github.com/soumyajit4419/Portfolio&#41;. Thanks!)
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-[//]: # ()
-[//]: # (## Built With)
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-[//]: # ()
-[//]: # (My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>)
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-[//]: # ()
-[//]: # (This project was built using these technologies.)
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-[//]: # ()
-[//]: # (- React.js)
+## Copyright and License
 
-[//]: # (- Node.js)
-
-[//]: # (- Express.js)
-
-[//]: # (- CSS3)
-
-[//]: # (- VsCode)
-
-[//]: # (- Vercel)
-
-[//]: # ()
-[//]: # (## Features)
-
-[//]: # ()
-[//]: # (**📖 Multi-Page Layout**)
-
-[//]: # ()
-[//]: # (**🎨 Styled with React-Bootstrap and Css with easy to customize colors**)
-
-[//]: # ()
-[//]: # (**📱 Fully Responsive**)
-
-[//]: # ()
-[//]: # (## Getting Started)
-
-[//]: # ()
-[//]: # (Clone down this repository. You will need `node.js` and `git` installed globally on your machine.)
-
-[//]: # ()
-[//]: # (## 🛠 Installation and Setup Instructions)
-
-[//]: # ()
-[//]: # (1. Installation: `npm install`)
-
-[//]: # ()
-[//]: # (2. In the project directory, you can run: `npm start`)
-
-[//]: # ()
-[//]: # (Runs the app in the development mode.\)
-
-[//]: # (Open [http://localhost:3000]&#40;http://localhost:3000&#41; to view it in the browser.)
-
-[//]: # (The page will reload if you make edits.)
-
-[//]: # ()
-[//]: # (## Usage Instructions)
-
-[//]: # ()
-[//]: # (Open the project folder and Navigate to `/src/components/`. <br/>)
-
-[//]: # (You will find all the components used and you can edit your information accordingly.)
-
-[//]: # ()
-[//]: # (### Show your support)
-
-[//]: # ()
-[//]: # (Give a ⭐ if you like this website!)
-
-[//]: # ()
-[//]: # (<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>)
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
